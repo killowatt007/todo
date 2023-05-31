@@ -1,0 +1,14 @@
+php_value default_charset UTF-8
+
+php_flag display_errors on
+php_value error_reporting 2047
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule .+ index.php [L]
+
+
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
