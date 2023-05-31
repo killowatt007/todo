@@ -1,3 +1,5 @@
+<?php defined('EXE') or die('Access'); ?>
+
 <div id="edit">
   <form class="needs-validation" method="post">
     <div class="row g-3">

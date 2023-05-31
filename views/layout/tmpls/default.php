@@ -4,10 +4,10 @@
 <html lang="en">
   <head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- <link rel="icon" type="image/png" href="/pwa/images/icons/icon-128x128.png" /> -->
 		<meta charset="utf-8">
 		<title></title>
 		<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/assets/css/main.css?<?php echo date('YmdHis')?>" rel="stylesheet">
   </head>
   <body class="bg-light">
 		<header>

@@ -14,10 +14,6 @@ class Edit extends \app\lib\Controller
     return parent::display();
   }
 
-
-
-  
-
   public function store()
   {
     $tasksModel = $this->getModel('tasks');

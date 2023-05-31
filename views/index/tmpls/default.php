@@ -1,4 +1,4 @@
-
+<?php defined('EXE') or die('Access'); ?>
 
 <?php if ($this->newtask) {?>
   <div class="alert alert-success alert-dismissible fade show mb-4" role="alert">
